@@ -7,7 +7,7 @@ import Swal from 'sweetalert2'
 export default function modalKado({ visible, onClose }) {
 
     const copyalamat = () => {
-        navigator.clipboard.writeText('Ds. Karangbale Blok Gunung Nyapah, RT.05/02, No.42, Kec. Larangan, Kab. Brebes, Jawa Tengah');
+        navigator.clipboard.writeText('Lorem Ipsum Dolor Sit Amet');
         Swal.fire({
             text: 'Berhasil Salin Alamat!',
             icon: 'success',
@@ -17,7 +17,7 @@ export default function modalKado({ visible, onClose }) {
     }
 
     const wawanita = () => {
-        window.open('https://api.whatsapp.com/send?phone=6285728006013', "_blank" );
+        window.open('https://api.whatsapp.com/send?phone=6282128942856', "_blank" );
     }
 
     return (
@@ -40,8 +40,7 @@ export default function modalKado({ visible, onClose }) {
                                 <div>
                                     <div className='bg-[#dfc4a7] rounded-lg py-3 mb-2'>
                                         <h1 className='text-center font-medium text-[#413327] text-xl'>
-                                            Ds. Karangbale Blok Gunung Nyapah, RT.05/02, No.42,
-                                            Kec. Larangan, Kab. Brebes, Jawa Tengah
+                                            Lorem Ipsum Dolor Sit Amet
                                         </h1>
                                     </div>
                                     <button onClick={() => {copyalamat()}} className='py-3 bg-gray-500 rounded-lg w-full mb-2 text-white hover:bg-gray-700'>

@@ -72,7 +72,7 @@ export default function Reservasi() {
                 confirmButtonText: 'OKE'
             })
         } else {
-            window.open(`https://api.whatsapp.com/send?phone=6285728006013&text=Hai%20Sandi%20%26%20May%2C%20saya%20*${rsvpNama}*%20ingin%20konfirmasi%20kehadiran%20pada%20undangan%20pernikahan%20kalian%20bahwa%20*${rsvpKonfir}*%20bersama%20*${rsvpTamu}*%20orang.%20Saya%20ucapkan%3A%0A*${rsvpPesan}*.%20Terima%20kasih%20ya.`, "_blank");
+            window.open(`https://api.whatsapp.com/send?phone=6282128942856&text=Hai%20Lorem%20%26%20Ipsum%2C%20saya%20*${rsvpNama}*%20ingin%20konfirmasi%20kehadiran%20pada%20undangan%20pernikahan%20kalian%20bahwa%20*${rsvpKonfir}*%20bersama%20*${rsvpTamu}*%20orang.%20Saya%20ucapkan%3A%0A*${rsvpPesan}*.%20Terima%20kasih%20ya.`, "_blank");
         }
 
     }
@@ -99,7 +99,7 @@ export default function Reservasi() {
         }
     }
 
-    const [expiryTime, setExpiryTime] = useState("12 jan 2023 08:00:00");
+    const [expiryTime, setExpiryTime] = useState("1 jan 2024 08:00:00");
     const [countdownTime, setCountdownTime] = useState(
         {
             countdownDays: '',

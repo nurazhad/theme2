@@ -9,7 +9,7 @@ export default function ModalAmplop({ onClose, visible }) {
     const copyrekwanita = () => {
         navigator.clipboard.writeText('0344863794');
         Swal.fire({
-            html: "Berhasil menyalin <br> rekening: <b>0344863794</b>",  
+            html: "Berhasil menyalin <br> rekening: <b>0123456789</b>",  
             icon: 'success',
             confirmButtonColor: '#413327',
             confirmButtonText: 'OKE',
@@ -19,7 +19,7 @@ export default function ModalAmplop({ onClose, visible }) {
     const copyrekpria = () => {
         navigator.clipboard.writeText('1650595021');
         Swal.fire({
-            html: "Berhasil menyalin <br> rekening: <b>1650595021</b>",  
+            html: "Berhasil menyalin <br> rekening: <b>0123456789</b>",  
             icon: 'success',
             confirmButtonColor: '#413327',
             confirmButtonText: 'OKE'
@@ -27,10 +27,10 @@ export default function ModalAmplop({ onClose, visible }) {
     }
 
     const wawanita = () => {
-        window.open('https://api.whatsapp.com/send?phone=6285728006013', "_blank" );
+        window.open('https://api.whatsapp.com/send?phone=6282128942856', "_blank" );
     }
     const wapria = () => {
-        window.open('https://api.whatsapp.com/send?phone=6285740241333', "_blank" );
+        window.open('https://api.whatsapp.com/send?phone=6282128942856', "_blank" );
     }
 
     return (
@@ -53,7 +53,7 @@ export default function ModalAmplop({ onClose, visible }) {
                             <div className='grid md:grid-cols-2 grid-cols-1 gap-4 mb-4'>
                                 <div>
                                     <div className='bg-[#dfc4a7] rounded-lg py-3 mb-2'>
-                                        <h1 className='text-center font-medium text-[#413327] text-2xl'>BNI <br /> 0344863794 <br /> Siti Maesaroh</h1>
+                                        <h1 className='text-center font-medium text-[#413327] text-2xl'>BNI <br /> 0123456789 <br /> Lorem Ipsum</h1>
                                     </div>
                                     <button onClick={() => copyrekwanita()} className='py-3 bg-gray-500 rounded-lg w-full mb-2 text-white hover:bg-gray-700'>
                                         <FontAwesomeIcon icon={faCopy} className="mr-2" />
@@ -67,7 +67,7 @@ export default function ModalAmplop({ onClose, visible }) {
                                 </div>
                                 <div>
                                     <div className='bg-[#dfc4a7] rounded-lg py-3 mb-2'>
-                                        <h1 className='text-center font-medium text-[#413327] text-2xl'>BCA <br /> 1650595021 <br /> Hany Sandi Himawan</h1>
+                                        <h1 className='text-center font-medium text-[#413327] text-2xl'>BCA <br /> 0123456789 <br /> Lorem Ipsum</h1>
                                     </div>
                                     <button onClick={() => {copyrekpria()}} className='py-3 bg-gray-500 rounded-lg w-full mb-2 text-white hover:bg-gray-700'>
                                         <FontAwesomeIcon icon={faCopy} className="mr-2" />

@@ -38,37 +38,37 @@ export default function Gallery() {
                             <div className='w-auto hover:scale-105 hover:cursor-pointer duration-300' onClick={() => bukaGallery(1)}>
                                 <img data-aos="fade-up" src={photos1} loading="lazy" alt="gallery" className='rounded-xl' />
                             </div>
-                            <div className='w-auto hover:scale-105 hover:cursor-pointer duration-300' onClick={() => bukaGallery(2)}>
+                            <div className='w-auto hover:scale-105 hover:cursor-pointer duration-300' onClick={() => bukaGallery(1)}>
                                 <img data-aos="fade-up" src={photos1} loading="lazy" alt="gallery" className='rounded-xl' />
                             </div>
-                            <div className='w-auto hover:scale-105 hover:cursor-pointer duration-300' onClick={() => bukaGallery(4)}>
+                            <div className='w-auto hover:scale-105 hover:cursor-pointer duration-300' onClick={() => bukaGallery(1)}>
                                 <img data-aos="fade-up" src={photos1} loading="lazy" alt="gallery" className='rounded-xl' />
                             </div>
-                            <div className='w-auto hover:scale-105 hover:cursor-pointer duration-300' onClick={() => bukaGallery(5)}>
+                            <div className='w-auto hover:scale-105 hover:cursor-pointer duration-300' onClick={() => bukaGallery(1)}>
                                 <img data-aos="fade-up" src={photos1} loading="lazy" alt="gallery" className='rounded-xl' />
                             </div>
-                            <div className='w-auto col-span-2 hover:scale-105 hover:cursor-pointer duration-300' onClick={() => bukaGallery(3)}>
+                            <div className='w-auto col-span-2 hover:scale-105 hover:cursor-pointer duration-300' onClick={() => bukaGallery(2)}>
                                 <img data-aos="fade-up" src={photos2} loading="lazy" alt="gallery" className='rounded-xl' />
                             </div>
-                            <div className='w-auto col-span-2 hover:scale-105 hover:cursor-pointer duration-300' onClick={() => bukaGallery(6)}>
+                            <div className='w-auto col-span-2 hover:scale-105 hover:cursor-pointer duration-300' onClick={() => bukaGallery(2)}>
                                 <img data-aos="fade-up" src={photos2} loading="lazy" alt="gallery" className='rounded-xl' />
                             </div>
-                            <div className='w-auto hover:scale-105 hover:cursor-pointer duration-300' onClick={() => bukaGallery(7)}>
+                            <div className='w-auto hover:scale-105 hover:cursor-pointer duration-300' onClick={() => bukaGallery(1)}>
                                 <img data-aos="fade-up" src={photos1} loading="lazy" alt="gallery" className='rounded-xl' />
                             </div>
-                            <div className='w-auto hover:scale-105 hover:cursor-pointer duration-300' onClick={() => bukaGallery(12)}>
+                            <div className='w-auto hover:scale-105 hover:cursor-pointer duration-300' onClick={() => bukaGallery(1)}>
                                 <img data-aos="fade-up" src={photos1} loading="lazy" alt="gallery" className='rounded-xl' />
                             </div>
-                            <div className='w-auto hover:scale-105 hover:cursor-pointer duration-300' onClick={() => bukaGallery(9)}>
+                            <div className='w-auto hover:scale-105 hover:cursor-pointer duration-300' onClick={() => bukaGallery(1)}>
                                 <img data-aos="fade-up" src={photos1} loading="lazy" alt="gallery" className='rounded-xl' />
                             </div>
-                            <div className='w-auto hover:scale-105 hover:cursor-pointer duration-300' onClick={() => bukaGallery(8)}>
+                            <div className='w-auto hover:scale-105 hover:cursor-pointer duration-300' onClick={() => bukaGallery(1)}>
                                 <img data-aos="fade-up" src={photos1} loading="lazy" alt="gallery" className='rounded-xl' />
                             </div>
-                            <div className='w-auto hover:scale-105 hover:cursor-pointer duration-300' onClick={() => bukaGallery(11)}>
+                            <div className='w-auto hover:scale-105 hover:cursor-pointer duration-300' onClick={() => bukaGallery(1)}>
                                 <img data-aos="fade-up" src={photos1} loading="lazy" alt="gallery" className='rounded-xl' />
                             </div>
-                            <div className='w-auto hover:scale-105 hover:cursor-pointer duration-300' onClick={() => bukaGallery(10)}>
+                            <div className='w-auto hover:scale-105 hover:cursor-pointer duration-300' onClick={() => bukaGallery(1)}>
                                 <img data-aos="fade-up" src={photos1} loading="lazy" alt="gallery" className='rounded-xl' />
                             </div>
                         </div>

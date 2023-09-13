@@ -41,7 +41,7 @@ export default function Protocol() {
                         </div> */}
                     </div>
                 </div>
-                <div className='bg-[#333333] p-3 custom-font-4 text-white text-center'> <a rel="noopener noreferrer" href='https://instagram.com/dyanurahman_' text-decoration="none" target="_blank" className='border-b-[1px]'>dyanurahman_</a>
+                <div className='bg-[#333333] p-3 custom-font-4 text-white text-center'> <a rel="noopener noreferrer" href='https://instagram.com/dyanurahman_' textecoration="none" target="_blank" className='border-b-[1px]'>dyanurahman_</a>
                 </div>
             </div>
         </>

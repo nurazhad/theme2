@@ -81,7 +81,7 @@ export default function Reservasi() {
         if (formNama !== '' && formPesan !== '') {
             setBtnLoader(true);
             const storeUcapan = collection(db, 'ucapan')
-            await addDoc(storeUcapan, {
+            await addDoc(storeUcapan, { 
                 created: serverTimestamp(),
                 nama: formNama,
                 pesan: formPesan,

@@ -20,7 +20,7 @@ export default function Penutup() {
                         <p className='my-16 text-center text-white font-semibold'>
                             Merupakan suatu kehormatan dan kebahagiaan bagi kami sekeluarga apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada kedua mempelai. Atas kehadiran serta doa restunya, kami ucapkan terima kasih.
                         </p>
-                        <h1 data-aos="fade-up" className='text-center font-bold custom-font-2 md:text-6xl text-5xl text-white'>{nama_pasangan}</h1>
+                        <h1 data-aos="fade-up" className='text-center font-bold custom-font-4 md:text-6xl text-5xl text-white'>{nama_pasangan}</h1>
                     </div>
                 </div>
                 <div className="spacer"></div>

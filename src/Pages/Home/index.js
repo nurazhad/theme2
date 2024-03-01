@@ -22,7 +22,7 @@ export default function Home({fadeIn}) {
                             <div className='text-gray-200 font-bold text-lg mb-4 mt-16'>
                                 PERNIKAHAN
                             </div>
-                            <div className='text-white custom-font-2 font-semibold md:text-6xl text-5xl mb-4'>
+                            <div className='text-white custom-font-4 font-semibold md:text-6xl text-5xl mb-4'>
                                 {nama_pasangan}
                             </div>
                             <div className='text-gray-200 font-bold text-lg mb-4'>

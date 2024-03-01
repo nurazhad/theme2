@@ -19,7 +19,7 @@ export default function Cover({ transformUp, onClick }) {
                         <div className='text-center'>
                             <div className='flex justify-center mb-8'>
                             </div>
-                            <div className='text-[#FFFFFF] custom-font-2 font-semibold text-5xl mb-4'>
+                            <div className='text-[#FFFFFF] custom-font-4 font-semibold text-5xl mb-4'>
                                 {nama_pasangan}
                             </div>
                             <div className='text-[#FFFFFF] font-bold text-lg mb-4'>

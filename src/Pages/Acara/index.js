@@ -26,7 +26,7 @@ export default function Acara() {
                 <center>
                   <img src={akad} className='w-[50px] mb-8' alt='akad' />
                 </center>
-                <h1 className='text-white font-bold text-5xl custom-font-2 mb-4 text-center'>Akad Nikah</h1>
+                <h1 className='text-white font-bold text-5xl custom-font-4 mb-4 text-center'>Akad Nikah</h1>
                 <center>
                   <div className='w-24 rounded-lg h-1 bg-white mb-4'></div>
                 </center>
@@ -43,7 +43,7 @@ export default function Acara() {
                 <center>
                   <img src={resepsi} className='w-[50px] mb-8' alt='resepsi' />
                 </center>
-                <h1 className='text-white font-bold text-5xl custom-font-2 mb-4 text-center'>Resepsi</h1>
+                <h1 className='text-white font-bold text-5xl custom-font-4 mb-4 text-center'>Resepsi</h1>
                 <center>
                   <div className='w-24 rounded-lg h-1 bg-white mb-4'></div>
                 </center>

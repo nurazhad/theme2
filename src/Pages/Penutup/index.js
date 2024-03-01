@@ -10,7 +10,7 @@ export default function Penutup() {
     }, [])
     return (
         <>
-            <div className='mb-16 bg-[#413327] landing-animation2'>
+            <div className='mb-16 bg-[#531212] landing-animation2'>
                 <div className='max-w-xl mx-auto'>
                     <div className='mx-4 py-16' data-aos="fade-up">
                         <h1 className='text-center text-white text-3xl font-semibold custom-font-3 mx-4 mb-8'>DOA PENGANTIN</h1>

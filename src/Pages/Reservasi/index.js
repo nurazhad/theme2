@@ -155,39 +155,38 @@ export default function Reservasi() {
         <>
             <div id="gift" className='my-16'>
                 <div className='flex justify-center mb-8'>
-                    <img src={hiasan1} data-aos="fade-up" alt='hiasan1' className='w-[80px]' />
                 </div>
-                <h1 data-aos="fade-up" className='text-center text-2xl font-semibold custom-font-3 mx-4 text-[#413327]'>Menuju Waktu Acara</h1>
-                <h1 data-aos="fade-up" className='text-center text-4xl font-semibold custom-font-3 mx-4 mb-8 text-[#413327]'>Pernikahan Kami</h1>
+                <h1 data-aos="fade-up" className='text-center text-2xl font-semibold custom-font-3 mx-4 text-[#FFFFFF]'>Menuju Waktu Acara</h1>
+                <h1 data-aos="fade-up" className='text-center text-4xl font-semibold custom-font-3 mx-4 mb-8 text-[#FFFFFF]'>Pernikahan Kami</h1>
                 <div data-aos="fade-up" className='flex justify-center gap-4 mb-8'>
-                    <div className='rounded-xl md:w-[200px] w-[80px] py-6 bg-[#413327] text-center custom-font-3 text-white'>
+                    <div className='rounded-xl md:w-[200px] w-[80px] py-6 bg-[#7c2b2b] text-center custom-font-3 text-white'>
                         <h1 className='md:text-5xl text-xl font-bold'>{countdownTime.countdownDays}</h1>
                         <p className='md:text-lg text-xs font-semibold'>Hari</p>
                     </div>
-                    <div className='rounded-xl md:w-[200px] w-[80px] py-6 bg-[#413327] text-center custom-font-3 text-white'>
+                    <div className='rounded-xl md:w-[200px] w-[80px] py-6 bg-[#7c2b2b] text-center custom-font-3 text-white'>
                         <h1 className='md:text-5xl text-xl font-bold '>{countdownTime.countdownHours}</h1>
                         <p className='md:text-lg text-xs font-semibold'>Jam</p>
                     </div>
-                    <div className='rounded-xl md:w-[200px] w-[80px] py-6 bg-[#413327] text-center custom-font-3 text-white'>
+                    <div className='rounded-xl md:w-[200px] w-[80px] py-6 bg-[#7c2b2b] text-center custom-font-3 text-white'>
                         <h1 className='md:text-5xl text-xl font-bold '>{countdownTime.countdownMinutes}</h1>
                         <p className='md:text-lg text-xs font-semibold'>Menit</p>
                     </div>
-                    <div className='rounded-xl md:w-[200px] w-[80px] py-6 bg-[#413327] text-center custom-font-3 text-white'>
+                    <div className='rounded-xl md:w-[200px] w-[80px] py-6 bg-[#7c2b2b] text-center custom-font-3 text-white'>
                         <h1 className='md:text-5xl text-xl font-bold '>{countdownTime.countdownSeconds}</h1>
                         <p className='md:text-lg text-xs font-semibold'>Detik</p>
                     </div>
                 </div>
-                <h1 data-aos="fade-up" className='text-center text-2xl font-semibold custom-font-3 mx-4 text-[#413327] mb-4'>Untuk Yang Berhalangan Hadir, Kami Tambahkan Fitur Dibawah Ini</h1>
+                <h1 data-aos="fade-up" className='text-center text-2xl font-semibold custom-font-3 mx-4 text-[#FFFFFF] mb-4'>Untuk Yang Berhalangan Hadir, Kami Tambahkan Fitur Dibawah Ini</h1>
                 <div data-aos="fade-up" className='flex justify-center'>
-                    <button type="button" onClick={() => openAmplop()} className="text-white shadow-lg text-md bg-[#413327] hover:bg-[#31261d] font-bold rounded-xl px-5 py-3.5 mr-2 mb-2">
+                    <button type="button" onClick={() => openAmplop()} className="text-white shadow-lg text-md bg-[#7c2b2b] hover:bg-[#bc5b5b] font-bold rounded-xl px-5 py-3.5 mr-2 mb-2">
                         <FontAwesomeIcon icon={faMoneyBill1} /> Amplop
                     </button>
-                    <button type="button" onClick={() => openKado()} className="text-white shadow-lg text-md bg-[#413327] hover:bg-[#31261d] font-bold rounded-xl px-5 py-3.5 mr-2 mb-2">
+                    <button type="button" onClick={() => openKado()} className="text-white shadow-lg text-md bg-[#7c2b2b] hover:bg-[#bc5b5b] font-bold rounded-xl px-5 py-3.5 mr-2 mb-2">
                         <FontAwesomeIcon icon={faGift} /> Kirim Kado
                     </button>
                 </div>
             </div>
-            <div className='mt-16 bg-[#413327] py-8'>
+            <div className='mt-16 bg-[#531212] py-8'>
                 <h1 data-aos="fade-up" className='text-center text-white text-3xl font-semibold custom-font-3 mx-4 mb-4'>Konfirmasi Kehadiran</h1>
                 <div data-aos="fade-up" className='max-w-lg mx-auto mb-16'>
                     <div className='mx-4'>
@@ -203,7 +202,7 @@ export default function Reservasi() {
                             <input id="default-radio-2" type="radio" value="" name="default-radio" class="w-4 h-4 text-green-600 bg-gray-100 border-gray-300 focus:ring-green-500" />
                             <label for="default-radio-2" class="ml-2 text-sm font-medium text-white">Maaf, Saya Tidak Bisa Datang</label>
                         </div>
-                        <button onClick={() => {reservasi()}} className='py-3 bg-green-600 rounded-full w-full mb-4 text-white hover:bg-green-700'>
+                        <button onClick={() => {reservasi()}} className='py-3 bg-[#7c2b2b] rounded-full w-full mb-4 text-white hover:bg-[#bc5b5b]'>
                             <FontAwesomeIcon icon={faMessage} className="mr-2" />
                             Reservasi via Whatsapp
                         </button>
@@ -218,10 +217,10 @@ export default function Reservasi() {
                         <div className='flex justify-between '>
                             {
                                 btnLoader === false ?
-                                    <button onClick={() => addUcapan()} className='py-3 px-4 bg-green-600 rounded-xl  mb-4 text-white hover:bg-green-700'>
+                                    <button onClick={() => addUcapan()} className='py-3 px-4 bg-[#7c2b2b] rounded-xl  mb-4 text-white hover:bg-[#bc5b5b]'>
                                         <FontAwesomeIcon icon={faPaperPlane} className="mr-2" />
                                         Kirim Ucapan
-                                    </button> : <button disabled className='py-3 px-4 rounded-xl  mb-4 text-white bg-green-700'>
+                                    </button> : <button disabled className='py-3 px-4 rounded-xl  mb-4 text-white bg-[#bc5b5b]'>
                                         <svg aria-hidden="true" role="status" class="inline mr-2 w-4 h-4 text-white animate-spin" viewBox="0 0 100 101" fill="none" xmlns="http://www.w3.org/2000/svg">
                                             <path d="M100 50.5908C100 78.2051 77.6142 100.591 50 100.591C22.3858 100.591 0 78.2051 0 50.5908C0 22.9766 22.3858 0.59082 50 0.59082C77.6142 0.59082 100 22.9766 100 50.5908ZM9.08144 50.5908C9.08144 73.1895 27.4013 91.5094 50 91.5094C72.5987 91.5094 90.9186 73.1895 90.9186 50.5908C90.9186 27.9921 72.5987 9.67226 50 9.67226C27.4013 9.67226 9.08144 27.9921 9.08144 50.5908Z" fill="#E5E7EB" />
                                             <path d="M93.9676 39.0409C96.393 38.4038 97.8624 35.9116 97.0079 33.5539C95.2932 28.8227 92.871 24.3692 89.8167 20.348C85.8452 15.1192 80.8826 10.7238 75.2124 7.41289C69.5422 4.10194 63.2754 1.94025 56.7698 1.05124C51.7666 0.367541 46.6976 0.446843 41.7345 1.27873C39.2613 1.69328 37.813 4.19778 38.4501 6.62326C39.0873 9.04874 41.5694 10.4717 44.0505 10.1071C47.8511 9.54855 51.7191 9.52689 55.5402 10.0491C60.8642 10.7766 65.9928 12.5457 70.6331 15.2552C75.2735 17.9648 79.3347 21.5619 82.5849 25.841C84.9175 28.9121 86.7997 32.2913 88.1811 35.8758C89.083 38.2158 91.5421 39.6781 93.9676 39.0409Z" fill="currentColor" />

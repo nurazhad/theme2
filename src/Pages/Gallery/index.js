@@ -27,10 +27,9 @@ export default function Gallery() {
                 ]}
                 slide={gallerySlide}
             />
-            <div className='my-16 bg-[#413327]'>
+            <div className='my-16 bg-[#531212]'>
                 <div className='p-8'>
                     <div className='flex justify-center mb-4'>
-                        <img data-aos="fade-up" src={hiasan2} alt='hiasan1' className='w-[80px]' />
                     </div>
                     <h1 data-aos="fade-up" className='text-center text-white custom-font-2 md:text-6xl text-4xl mb-8'>Moment Bahagia</h1>
                     <div id="gallery" className='flex justify-center lg:mx-72'>

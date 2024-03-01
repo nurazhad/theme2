@@ -16,7 +16,7 @@ export default function Protocol() {
             <div className='mt-16'>
                 <div className='max-w-4xl mx-auto mb-16'>
                     <div className='mx-2'>
-                        <h1 data-aos="fade-up" className='custom-font-5 md:text-3xl text-2xl text-center mb-16 text-[#FFFFFF]'>
+                        <h1 data-aos="fade-up" className='custom-font-5 md:text-3xl text-2xl text-center mb-16 text-[#202547]'>
                             Demikian undangan kami, atas kehadirannya kami ucapkan terima kasih.
                         </h1>
                         {/* <div className='flex justify-center gap-4'>

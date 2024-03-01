@@ -37,11 +37,11 @@ export default function Gallery() {
                 ]}
                 slide={gallerySlide}
             />
-            <div className='my-16 bg-[#531212]'>
+            <div className='my-16 bg-[#dde7ee]'>
                 <div className='p-8'>
                     <div className='flex justify-center mb-4'>
                     </div>
-                    <h1 data-aos="fade-up" className='text-center text-white custom-font-2 md:text-6xl text-4xl mb-8'>Moment Bahagia</h1>
+                    <h1 data-aos="fade-up" className='text-center text-[#202547] custom-font-2 md:text-6xl text-4xl mb-8'>Moment Bahagia</h1>
                     <div id="gallery" className='flex justify-center lg:mx-72'>
                         <div className='grid grid-cols-2 gap-4 mb-16'>
                             <div className='w-auto hover:scale-105 hover:cursor-pointer duration-300' onClick={() => bukaGallery(1)}>

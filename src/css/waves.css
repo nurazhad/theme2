@@ -46,7 +46,7 @@
   animation-delay: -2s;
   -webkit-animation-duration: 7s;
   animation-duration: 7s;
-  fill: rgba(124,43,43, 0.7);
+  fill: rgba(221,231,238, 0.7);
 }
 
 .svg-waves__parallax > use:nth-child(2) {
@@ -54,7 +54,7 @@
   animation-delay: -3s;
   -webkit-animation-duration: 10s;
   animation-duration: 10s;
-  fill: rgba(124,43,43, 0.5);
+  fill: rgba(221,231,238, 0.5);
 }
 
 .svg-waves__parallax > use:nth-child(3) {
@@ -62,7 +62,7 @@
   animation-delay: -4s;
   -webkit-animation-duration: 13s;
   animation-duration: 13s;
-  fill: rgba(124,43,43, 0.3);
+  fill: rgba(221,231,238, 0.3);
 }
 
 .svg-waves__parallax > use:nth-child(4) {
@@ -70,7 +70,7 @@
   animation-delay: -5s;
   -webkit-animation-duration: 20s;
   animation-duration: 20s;
-  fill: #531212;
+  fill: #dde7ee;
 }
 
 @-webkit-keyframes move-forever {

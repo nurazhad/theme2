@@ -10,17 +10,17 @@ export default function Penutup() {
     }, [])
     return (
         <>
-            <div className='mb-16 bg-[#531212] landing-animation2'>
+            <div className='mb-16 bg-[#81a5ba] landing-animation2'>
                 <div className='max-w-xl mx-auto'>
                     <div className='mx-4 py-16' data-aos="fade-up">
-                        <h1 className='text-center text-white text-3xl font-semibold custom-font-3 mx-4 mb-8'>DOA PENGANTIN</h1>
-                        <h1 className='text-center text-white text-2xl mb-2 arial'>بَارَكَ اللهُ لَكَ وَبَارَكَ عَلَيْكَ وَجَمَعَ بَيْنَكُمَا فِى خَيْرٍ</h1>
-                        <h1 className='text-center text-white text mb-4 italic arial'>Barakallahu laka wa baraka ‘alaika wa jama’a bainakuma fiil Khairin</h1>
-                        <h1 className='text-center text-white text mb-4 font-bold italic arial'>”Mudah-mudahan Allah memberkahi engkau dalam segala hal (yang baik) dan mempersatukan kamu berdua dalam kebaikan”</h1>
-                        <p className='my-16 text-center text-white font-semibold'>
+                        <h1 className='text-center text-[#202547] text-3xl font-semibold custom-font-3 mx-4 mb-8'>DOA PENGANTIN</h1>
+                        <h1 className='text-center text-[#202547] text-2xl mb-2 arial'>بَارَكَ اللهُ لَكَ وَبَارَكَ عَلَيْكَ وَجَمَعَ بَيْنَكُمَا فِى خَيْرٍ</h1>
+                        <h1 className='text-center text-[#202547] text mb-4 italic arial'>Barakallahu laka wa baraka ‘alaika wa jama’a bainakuma fiil Khairin</h1>
+                        <h1 className='text-center text-[#202547] text mb-4 font-bold italic arial'>”Mudah-mudahan Allah memberkahi engkau dalam segala hal (yang baik) dan mempersatukan kamu berdua dalam kebaikan”</h1>
+                        <p className='my-16 text-center text-[#202547] font-semibold'>
                             Merupakan suatu kehormatan dan kebahagiaan bagi kami sekeluarga apabila Bapak/Ibu/Saudara/i berkenan hadir untuk memberikan doa restu kepada kedua mempelai. Atas kehadiran serta doa restunya, kami ucapkan terima kasih.
                         </p>
-                        <h1 data-aos="fade-up" className='text-center font-bold custom-font-4 md:text-6xl text-5xl text-white'>{nama_pasangan}</h1>
+                        <h1 data-aos="fade-up" className='text-center font-bold custom-font-4 md:text-6xl text-5xl text-[#202547]'>{nama_pasangan}</h1>
                     </div>
                 </div>
                 <div className="spacer"></div>

@@ -19,13 +19,13 @@ export default function Home({fadeIn}) {
                 <div className='absolute h-screen w-full'>
                     <div className='absolute top-2/4 lg:top-1/3 left-0 right-0'>
                         <div className={`text-center ${fadeIn === true ? 'scale-100' : 'scale-0'} duration-1000`}>
-                            <div className='text-gray-200 font-bold text-lg mb-4 mt-16'>
+                            <div className='text-[#202547] font-bold text-lg mb-4 mt-16'>
                                 PERNIKAHAN
                             </div>
-                            <div className='text-white custom-font-4 font-semibold md:text-6xl text-5xl mb-4'>
+                            <div className='text-[#202547] custom-font-4 font-semibold md:text-6xl text-5xl mb-4'>
                                 {nama_pasangan}
                             </div>
-                            <div className='text-gray-200 font-bold text-lg mb-4'>
+                            <div className='text-[#202547] font-bold text-lg mb-4'>
                                 01 JANUARI 2024
                             </div>
                         </div>
